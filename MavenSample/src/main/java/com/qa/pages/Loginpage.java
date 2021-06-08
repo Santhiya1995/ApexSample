@@ -1,5 +1,13 @@
 package com.qa.pages;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
 public class Loginpage {
-Sysytem.out.println("Hellow world");
+@FindBy(id="email")
+WebElement mail;
+
+@FindBy(id="password")
+WebElement pwd;
+
 }
