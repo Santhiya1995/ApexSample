@@ -1,2 +1,0 @@
-# ApexSample
-apex
